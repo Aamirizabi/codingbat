@@ -1,8 +1,0 @@
-def make_chocolate(small, big, goal):
-  smallNeeded = goal - big*5
-   if smallNeeded <= small and smallNeeded >=0:
-    return smallNeeded
-  elif smallNeeded < 0 and goal%5 <=small:
-    return goal%5
-  else:
-    return -1
